@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.scss';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 const Test = React.lazy(() => import('./pages/test'));
 
 function App() {
